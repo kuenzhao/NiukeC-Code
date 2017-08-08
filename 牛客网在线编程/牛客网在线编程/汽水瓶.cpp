@@ -20,14 +20,43 @@
 5
 40
 ************************************************************************************************/
+
+/***********************************************************************************************
+解题思路：
+1 设两个变量,一个记录喝的汽水的瓶数，一个记录手中还有的瓶子的个数。当手中的瓶子数小于2时，跳出循环
+************************************************************************************************/
 #include<iostream>
 #include<string>
 
 using namespace std;
 
+int CountSodaBottle(int number)
+{
+	int DrinkBottle = 0;
+	int Bottle = number;
+
+	while (Bottle>=2)
+	{
+		int tmp = 0;
+		if (Bottle == 2)
+		{
+			DrinkBottle++;
+			break;
+		}
+		tmp = Bottle / 3;//每次可以兑换的瓶数
+		DrinkBottle += tmp;//记录喝的汽水的瓶数
+		Bottle = tmp + Bottle %3;//当前手中还有的瓶数
+	}
+	return DrinkBottle;
+}
+
 int main()
 {
-
+	int number;
+	while (cin >> number)
+	{
+		cout << CountSodaBottle(number) << endl;;
+	}
 
 	return 0;
 }
