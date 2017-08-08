@@ -70,7 +70,7 @@ void PrintReSentence(vector<string> str)
 	}
 	cout << outStr << endl;
 }
-int main11()
+int main12()
 {
 
 	string str;

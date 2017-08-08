@@ -80,6 +80,5 @@ int main11()
 			cout << tmpstr << endl;
 		}
 	}
-	
 	return 0;
 }
