@@ -33,5 +33,17 @@
     <ClCompile Include="字符串应用-密码截取.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="整数与IP地址之间的转换.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="图片整理.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="蛇形矩阵.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="036字符串加密.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

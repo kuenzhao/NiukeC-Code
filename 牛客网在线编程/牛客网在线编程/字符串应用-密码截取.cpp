@@ -56,7 +56,7 @@ int findLongestPalindrome(string &s)
 	
 	return maxlength;
 }
-int main()
+int main16()
 {
 	string str;
 	while (cin >> str)
