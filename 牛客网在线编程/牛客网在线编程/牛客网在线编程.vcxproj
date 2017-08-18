@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="037统计每个月兔子的总数.cpp" />
+    <ClCompile Include="德才论.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{F8D4E00F-A7F8-44BD-B056-BBCBC62C1546}</ProjectGuid>

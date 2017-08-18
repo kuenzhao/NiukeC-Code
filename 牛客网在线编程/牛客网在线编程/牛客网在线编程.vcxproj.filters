@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="037统计每个月兔子的总数.cpp">
+    <ClCompile Include="德才论.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
